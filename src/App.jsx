@@ -28,7 +28,7 @@ function App() {
     } else if (bmi >= 18.5 && bmi < 24.9) {
       setMassStatus('Ideal');
       setImageSrc(images[1]);
-    } else {
+    } else  {
       setMassStatus('Overweight');
       setImageSrc(images[2]);
     }
@@ -62,8 +62,8 @@ function App() {
             />
           </div>
           <button
-            onClick={Body}
             className="bg-[#027e2a] text-white py-2 rounded-lg w-full hover:bg-gray-600 transition duration-300"
+            onClick={Body}
           >
             Calculate
           </button>
@@ -79,7 +79,7 @@ function App() {
        
         {imageSrc && (
           <div className="flex items-center justify-center bg-gray-200 p-4 md:w-1/2">
-            <img src={imageSrc} alt="Body status" className="w-full h-auto max-w-xs rounded-lg" />
+            <img src={imageSrc} alt="" className="w-full h-auto max-w-xs rounded-lg" />
           </div>
         )}
       </div>
