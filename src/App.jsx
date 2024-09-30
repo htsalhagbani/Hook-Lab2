@@ -49,7 +49,7 @@ function App() {
               type="number"
               value={weight}
               onChange={(e) => setWeight(e.target.value)}
-              className="border border-gray-300 rounded-md p-2 w-full bg-white"
+              className="border border-gray-300 rounded-md p-2 w-full bg-white text-black"
             />
           </div>
           <div className="mb-6">
@@ -58,7 +58,7 @@ function App() {
               type="number"
               value={height}
               onChange={(e) => setHeight(e.target.value)}
-              className="border border-gray-300 rounded-md p-2 w-full bg-white"
+              className="border border-gray-300 rounded-md p-2 w-full bg-white text-black"
             />
           </div>
           <button
