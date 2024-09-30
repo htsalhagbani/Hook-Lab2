@@ -70,7 +70,7 @@ function App() {
 
           {perfectWeight && (
             <div className="mt-4">
-              <h3 className="text-lg font-semibold">Ideal Weight: {perfectWeight} kg</h3>
+              <h3 className="text-lg font-semibold text-black">Ideal Weight: {perfectWeight} kg</h3>
               <h3 className={`text-lg font-semibold ${massStatus === 'Underweight' ? 'text-red-500' : massStatus === 'Ideal' ? 'text-green-500' : 'text-orange-500'}`}>Mass Status: {massStatus}</h3>
             </div>
           )}
